@@ -1,0 +1,29 @@
+$margin:0.5cm;
+
+
+.toolLaterale {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0.5cm;
+    padding-left: $margin;
+    padding-right: $margin;
+    padding-top: $margin;
+
+    // width: 10cm;
+    //box-shadow: 0 0 0.2cm rgba(0,0,0,0.2);
+}
+
+.celleGriglia {
+    //background-color: lightgrey;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+.celleHeaderGriglia {
+    background-color: lightgrey;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: black;
+}

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.a4{
+    width: 21cm;
+    height: 29.6cm;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    // Margini
+    //padding-left: 1cm;
+    //padding-right: 1cm;
+    //padding-top: 2.5cm;
+    //padding-bottom: 2cm;
+}
+.right { 
+    text-align: right !important ;
+}
