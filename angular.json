@@ -123,6 +123,10 @@
               "devServerTarget": "Ag9Test:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
