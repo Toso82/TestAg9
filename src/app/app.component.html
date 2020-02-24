@@ -79,12 +79,17 @@
 
     <div [gdColumns]="'repeat('+numeroColonne+',1fr)'" [style.grid-template-rows]="'repeat('+numeroRighe+',1fr)'"
       gdGap="{{padding}}cm" style="height: 100%;">
-      <div gdAlignColumns *ngFor="let item of elementi(pag+1);let i=index" class="celleGriglia">
-        <div fxLayout="column" fxLayoutAlign="center center">
-          <div fxFill class="celleHeaderGriglia">N.{{i+1+pag*numeroRighe*numeroColonne}} Documento</div>
-          <img fxFill [src]="'https://picsum.photos/id/'+(i+20+pag*numeroRighe*numeroColonne)+'/600/400'" alt="">
+      <div gdAlignColumns="stretch stretch" *ngFor="let item of elementi(pag+1);let i=index" class="celleGriglia">
+        <div fxLayout="column" fxLayoutAlign="start stretch">
+          <div class="celleHeaderGriglia">N.{{i+1+pag*numeroRighe*numeroColonne}} Documento</div>
+         
+          <div fxFill fxLayout="row" fxLayoutAlign="center center" style="padding: 10px;">
+            <img  [src]="'https://picsum.photos/id/'+(i+20+pag*numeroRighe*numeroColonne)+'/400/400'" alt="" class="responsiveImage">
+          </div>
+          
         </div>
-        
+          
+
       </div>
     </div>
 

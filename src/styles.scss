@@ -22,3 +22,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .right { 
     text-align: right !important ;
 }
+
+.responsiveImage {
+    max-width: 100%; 
+    height: auto;
+}
