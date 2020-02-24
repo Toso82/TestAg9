@@ -70,14 +70,14 @@
 
 
 
-<kendo-pdf-export #pdf forcePageBreak=".page-break">
-  <ng-template kendoPDFTemplate let-pageNum="pageNum" let-totalPages="totalPages" >
+<kendo-pdf-export #pdf paperSize="A4" forcePageBreak=".page-break">
+  <!-- <ng-template kendoPDFTemplate let-pageNum="pageNum" let-totalPages="totalPages" >
     <div style="position: absolute; background-color: lightgray; bottom: 0cm;"
       [style.right]="'1cm'" [style.height]="margineBasso+'cm'" 
       [style.width]="'calc(100%-'+margineDestra+'cm-'+margineSinistra+'cm)'">
       Pagina {{ pageNum }} di {{ totalPages }}
     </div>
-  </ng-template>
+  </ng-template> -->
   
 
 
