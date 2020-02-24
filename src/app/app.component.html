@@ -8,11 +8,11 @@
       </mat-card-header>
       <mat-card-content>
         <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
-          <mat-form-field apparence="fill" floatLabel="always">
-            <input matInput placeholder="Numero di righe" [(ngModel)]=numeroRighe type="number">
+          <mat-form-field apparence="fill" floatLabel="always" fxFlex="80px">
+            <input matInput placeholder="Righe" [(ngModel)]=numeroRighe type="number">
           </mat-form-field>
-          <mat-form-field apparence="fill" floatLabel="always">
-            <input matInput placeholder="Numero di colonne" [(ngModel)]=numeroColonne type="number">
+          <mat-form-field apparence="fill" floatLabel="always"  fxFlex="80px">
+            <input matInput placeholder="Colonne" [(ngModel)]=numeroColonne type="number">
           </mat-form-field>
         </div>
         <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
@@ -39,23 +39,23 @@
       </mat-card-header>
       <mat-card-content>
         <div fxLayout="row" fxLayoutAlign="center center">
-          <mat-form-field apparence="fill" floatLabel="always" fxFlex="80px">
+          <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
             <input matInput placeholder="Alto" [(ngModel)]=margineAlto class="right">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
         </div>
-        <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="90px">
-          <mat-form-field apparence="fill" floatLabel="always" fxFlex="80px">
+        <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="70px">
+          <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
             <input matInput placeholder="Sinistra" [(ngModel)]=margineSinistra class="right">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
-          <mat-form-field apparence="fill" floatLabel="always" fxFlex="80px">
+          <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
             <input matInput placeholder="Destra" [(ngModel)]=margineDestra class="right">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
         </div>
         <div fxLayout="row" fxLayoutAlign="center center">
-          <mat-form-field apparence="fill" floatLabel="always" fxFlex="80px">
+          <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
             <input matInput placeholder="Basso" [(ngModel)]=margineBasso class="right">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
