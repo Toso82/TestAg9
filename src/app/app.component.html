@@ -17,7 +17,7 @@
         </div>
         <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
           <mat-form-field apparence="fill" floatLabel="always" fxFlex="80px">
-            <input matInput placeholder="Spazio" [(ngModel)]=padding class="right">
+            <input matInput placeholder="Spazio" [(ngModel)]=padding class="right" type="number" step="0.1">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
           <mat-form-field apparence="fill" floatLabel="always" fxFlex="100px">
@@ -40,23 +40,23 @@
       <mat-card-content>
         <div fxLayout="row" fxLayoutAlign="center center">
           <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
-            <input matInput placeholder="Alto" [(ngModel)]=margineAlto class="right">
+            <input matInput placeholder="Alto" [(ngModel)]=margineAlto class="right" type="number" step="0.1">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
         </div>
         <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="70px">
           <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
-            <input matInput placeholder="Sinistra" [(ngModel)]=margineSinistra class="right">
+            <input matInput placeholder="Sinistra" [(ngModel)]=margineSinistra class="right" type="number" step="0.1">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
           <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
-            <input matInput placeholder="Destra" [(ngModel)]=margineDestra class="right">
+            <input matInput placeholder="Destra" [(ngModel)]=margineDestra class="right" type="number" step="0.1">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
         </div>
         <div fxLayout="row" fxLayoutAlign="center center">
           <mat-form-field apparence="fill" floatLabel="always" fxFlex="60px">
-            <input matInput placeholder="Basso" [(ngModel)]=margineBasso class="right">
+            <input matInput placeholder="Basso" [(ngModel)]=margineBasso class="right" type="number" step="0.1">
             <span matSuffix>&nbsp;Cm</span>
           </mat-form-field>
         </div>
