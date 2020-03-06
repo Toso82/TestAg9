@@ -58,20 +58,20 @@ export class AppComponent {
       await browser.close();
     })();*/
 
-    jsreport.init().then(() => {
-      return jsreport.render({
-        template: {
-          content: '<h1>Test</h1>',
-          engine: 'handlebars',
-          recipe: 'chrome-pdf'
-        } 
-      }).then((resp) => {
-         // prints pdf with headline Hello world
-        console.log(resp.content.toString())
-       });
-    }).catch((e) => {
-      console.error(e)
-    })
+    // jsreport.init().then(() => {
+    //   return jsreport.render({
+    //     template: {
+    //       content: '<h1>Test</h1>',
+    //       engine: 'handlebars',
+    //       recipe: 'chrome-pdf'
+    //     } 
+    //   }).then((resp) => {
+    //      // prints pdf with headline Hello world
+    //     console.log(resp.content.toString())
+    //    });
+    // }).catch((e) => {
+    //   console.error(e)
+    // })
   }
 
 }

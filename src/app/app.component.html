@@ -97,8 +97,11 @@
         <div fxLayout="column" fxLayoutAlign="start stretch">
           <div class="celleHeaderGriglia">N.{{i+1+pag*numeroRighe*numeroColonne}} Documento</div>
          
-          <div fxLayout="row" fxLayoutAlign="center center" style="height: 100%; padding: 10px;">
-            <img  [src]="'https://picsum.photos/id/'+(i+20+pag*numeroRighe*numeroColonne)+'/400/300.webp'" alt="" class="responsiveImage">
+          <div fxLayout="row" fxLayoutAlign="center center" style="height: 100%; padding: 10px; background-repeat: no-repeat; margin: 2mm;"
+            [style.backgroundImage]="'url(https://picsum.photos/id/'+(i+20+pag*numeroRighe*numeroColonne)+'/800/600.webp)'"
+          
+          >
+            <!-- <img  [src]="'https://picsum.photos/id/'+(i+20+pag*numeroRighe*numeroColonne)+'/800/600.webp'" alt="" class="responsiveImage"> -->
           </div>
           
         </div>
