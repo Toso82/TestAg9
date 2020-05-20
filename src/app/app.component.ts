@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import * as jsreport from 'jsreport-core';
-
+import * as puppeteer from 'puppeteer-core';
 
 @Component({
   selector: 'app-root',
@@ -48,7 +48,7 @@ export class AppComponent {
 
   GeneraPDFChrome(){
     
-   /*
+
     (async () => {
       const browser = await puppeteer.launch();
       const page = await browser.newPage();
@@ -56,7 +56,7 @@ export class AppComponent {
       await page.pdf({path: 'Test.pdf',  format: 'A4'});
 
       await browser.close();
-    })();*/
+    })();
 
     // jsreport.init().then(() => {
     //   return jsreport.render({

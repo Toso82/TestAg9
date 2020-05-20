@@ -91,7 +91,7 @@
   
   
 
-    <div [gdColumns]="'repeat('+numeroColonne+',1fr)'" [style.grid-template-rows]="'repeat('+numeroRighe+',1fr)'"
+    <div [gdColumns]="'repeat('+numeroColonne+',1fr)'" [gdRows]="'repeat('+numeroRighe+',1fr)'"
       gdGap="{{padding}}cm" style="height: 100%;">
       <div gdAlignColumns="stretch stretch" *ngFor="let item of elementi(pag+1);let i=index" class="celleGriglia">
         <div fxLayout="column" fxLayoutAlign="start stretch">
