@@ -33,7 +33,7 @@
     "puppeteer-core": "^3.1.0",
     "rxjs": "~6.5.5",
     "tslib": "^1.11.0",
-    "ws": "^7.3.0",
+    "ws": "^7.4.6",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
